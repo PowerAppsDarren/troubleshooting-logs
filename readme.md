@@ -81,7 +81,7 @@ After searching the [Pieces Support Repository](https://github.com/pieces-app/su
 
 ### 🔍 Most Similar Issues:
 - **#813** - "Ensure Core Dependencies" 
-- **#809** - "Ensure core dependencies; Retry Step"
+- **#809** - "Ensure core dependencies; Retry Step" - [Specific comment with similar issue](https://github.com/pieces-app/support/issues/809#issuecomment-3246677389)
 - **#602** - "Ensure core dependencies Retry Step , I need help #bug"
 
 ### Related Initialization Problems:
