@@ -4,6 +4,8 @@
 
 Pieces OS Desktop App (v4.3.4) is stuck during initialization at "PiecesOS Migration In Progress" showing 45% complete. The migration process appears to hang indefinitely after database initialization completes successfully.
 
+- Reported here: https://github.com/pieces-app/support/issues/809#issuecomment-3246677389
+
 ## System Information
 
 - **OS**: Windows 11
