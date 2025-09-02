@@ -1,0 +1,31 @@
+[D]  2025-08-31T10:50:28.311861  Starting OS_Server!
+[D]  2025-08-31T10:50:28.311861  Starting EnvConf
+[D]  2025-08-31T10:50:28.311861  Starting DeploymentInfo
+[D]  2025-08-31T10:50:28.318772  Number: 267
+[D]  2025-08-31T10:50:28.318772  Tag: 12.2.1
+[D]  2025-08-31T10:50:28.318772  Branch: 12.2.1
+[D]  2025-08-31T10:50:28.318772  SHA1: f1676119a37cc2cf3af498efbe5b4c00bbf97ff9
+[D]  2025-08-31T10:50:28.318772  WinDeployType: msix
+[D]  2025-08-31T10:50:28.318772  Channel : production
+[D]  2025-08-31T10:50:28.318772  Process ID: 105148
+[D]  2025-08-31T10:50:28.318772  Copying the vocab file to the data directory
+[D]  2025-08-31T10:50:28.318772  Successfully copied the vocab file
+[D]  2025-08-31T10:50:28.318772  Starting OS
+[D]  2025-08-31T10:50:28.376406  Starting OS
+[D]  2025-08-31T10:50:28.377911  Starting UI
+[D]  2025-08-31T10:50:28.377911  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-08312025.txt
+[D]  2025-08-31T10:50:28.385479  UI#builder, hasData: false, hasError: false
+[D]  2025-08-31T10:50:28.386480  stateStream#onListen
+[D]  2025-08-31T10:50:28.386480  OS#boot - Starting boot process
+[D]  2025-08-31T10:50:28.386480  OS#attach
+[D]  2025-08-31T10:50:28.386480  OS#boot - attach() completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Starting data singletons initialization
+[38;5;12m[I][0m  initializeDataSingletons - Logger initialization completed in 0ms
+[D]  2025-08-31T10:50:28.388480  User added tagify files now exist.
+[38;5;12m[I][0m  initializeDataSingletons - Couchbase initializeCouchbase completed in 7237ms
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  initializeDataSingletons - Platform detection completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Database initialization with embedding callbacks completed in 0ms
+[D]  2025-08-31T10:50:38.069298  0:00:00.001451 GET     [200] /.well-known/version: port:39300
+[D]  2025-08-31T10:50:38.072816  0:00:00.000752 GET     [200] /.well-known/health: port:39300
+[D]  2025-08-31T10:50:39.077272  0:00:00.001153 GET     [200] /.well-known/health: port:39300

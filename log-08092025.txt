@@ -1,0 +1,721 @@
+[D]  2025-08-09T11:11:40.957805  Starting OS_Server!
+[D]  2025-08-09T11:11:40.958805  args: pieces://launch/
+[D]  2025-08-09T11:11:40.958805  Starting EnvConf
+[D]  2025-08-09T11:11:40.958805  Starting DeploymentInfo
+[D]  2025-08-09T11:11:40.965849  Number: 262
+[D]  2025-08-09T11:11:40.965849  Tag: 12.1.1
+[D]  2025-08-09T11:11:40.965849  Branch: 12.1.1
+[D]  2025-08-09T11:11:40.965849  SHA1: 45b04ac0234ca729473fa6313e508d1ed534fbff
+[D]  2025-08-09T11:11:40.965849  WinDeployType: msix
+[D]  2025-08-09T11:11:40.965849  Channel : production
+[D]  2025-08-09T11:11:40.965849  Process ID: 163096
+[D]  2025-08-09T11:11:40.965849  Copying the vocab file to the data directory
+[D]  2025-08-09T11:11:40.965849  Successfully copied the vocab file
+[D]  2025-08-09T11:11:40.965849  Starting OS
+[D]  2025-08-09T11:11:40.971398  Starting OS
+[D]  2025-08-09T11:11:40.972399  Starting UI
+[D]  2025-08-09T11:11:40.972399  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-08092025.txt
+[D]  2025-08-09T11:11:40.984605  UI#builder, hasData: false, hasError: false
+[D]  2025-08-09T11:11:40.984605  stateStream#onListen
+[D]  2025-08-09T11:11:40.984605  OS#boot
+[D]  2025-08-09T11:11:40.984605  OS#attach
+[38;5;12m[I][0m  initializeDataSingletons
+[D]  2025-08-09T11:11:41.000225  User added tagify files now exist.
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  Couchbase is open
+[D]  2025-08-09T11:16:42.348067  OS#totalTime: 301375668
+[D]  2025-08-09T11:16:42.366690  OS#onBooted
+[D]  2025-08-09T11:16:42.366690  OS#port: 39300
+[D]  2025-08-09T11:16:42.372047  UI#builder, hasData: true, hasError: false
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-08-09T11:16:42.417178  0:00:00.015428 GET     [200] /.well-known/health: port:39300
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-08-09T11:16:43.336341  OS#machine learning models initialized successfully
+[D]  2025-08-09T11:16:43.338859  Successfully to wrote our installation Path of PiecesOS C:\Program Files\WindowsApps\com.MeshIntelligentTechnologi.PiecesOS_12.1.1.0_x64__84gz00a5z79wr\os_server.exe
+[D]  2025-08-09T11:16:51.890068  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-08-09T11:16:51.891068  InternalSubscriptionsWebsocketManager: Connected successfully
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T11:17:23.261702  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:17:23Z","version":"1.0.0"}
+[D]  Checking for updates for MSIX Side-loaded installations
+[D]  [34m MsixUpdaterApi: Attempting to check for an updates [0m
+[D]  2025-08-09T11:17:42.797357  run periodicValidateOpenAIKey
+[D]  2025-08-09T11:17:42.811954  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T11:17:42.811954  Processing summary: 2025-08-09 14:57:42.811954Z to 2025-08-09 15:17:42.811954Z (queued 0s ago)
+[D]  2025-08-09T11:17:42.811954  Processing task 1/110 from queue
+[D]  [34m MsixUpdaterApi: No Updates Available [0m
+[D]  2025-08-09T11:17:51.253350  periodicValidateOpenAIKey completed
+[D]  2025-08-09T11:17:51.254349  run periodicUserFetch
+[D]  2025-08-09T11:17:51.940977  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:17:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:17:52.005744  periodicUserFetch completed
+[D]  2025-08-09T11:17:52.005744  run periodicWorkflowRollupGenerator
+[D]  2025-08-09T11:17:55.112693  periodicWorkflowRollupGenerator completed
+[D]  2025-08-09T11:17:55.113694  Completed processing session: 1 tasks processed, 0 remaining
+[D]  2025-08-09T11:17:55.113694  run periodicWorkflowRollupRegenerator
+[D]  2025-08-09T11:17:55.194978  periodicWorkflowRollupRegenerator completed
+[D]  2025-08-09T11:17:55.195984  run periodicUserAddedTags
+[D]  2025-08-09T11:17:55.612348  periodicUserAddedTags completed
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T11:18:21.952552  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:18:23Z","version":"1.0.0"}
+[D]  Checking for applet updates
+[D]  2025-08-09T11:18:51.963519  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:18:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:19:21.939634  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:19:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:19:51.939045  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:19:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:20:21.969051  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:20:23Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T11:20:51.937801  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:20:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:21:21.937383  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:21:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:21:51.967272  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:21:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:22:21.939199  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:22:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:22:51.939083  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:22:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:23:21.945831  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:23:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:23:51.936150  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:23:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:24:21.934539  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:24:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:24:51.934053  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:24:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:25:21.932730  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:25:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:25:51.934127  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:25:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:26:21.933646  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:26:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:26:51.930843  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:26:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:27:21.933151  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:27:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:27:51.931174  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:27:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:28:21.931289  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:28:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:28:51.930115  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:28:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:29:21.930404  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:29:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:29:51.929207  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:29:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:30:21.928577  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:30:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:30:51.928519  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:30:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:31:21.928345  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:31:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:31:51.927600  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:31:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:32:21.926554  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:32:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:32:51.927493  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:32:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:33:21.933924  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:33:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:33:51.924262  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:33:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:34:21.926422  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:34:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:34:51.943324  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:34:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:35:21.923190  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:35:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:35:51.943459  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:35:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:36:21.949926  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:36:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:36:51.921805  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:36:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:37:21.920860  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:37:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:37:51.955861  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:37:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:37:55.128323  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T11:37:55.128323  Processing summary: 2025-08-09 15:17:55.128323Z to 2025-08-09 15:37:55.128323Z (queued 0s ago)
+[D]  2025-08-09T11:37:55.128323  Processing task 1/110 from queue
+[D]  2025-08-09T11:37:55.128323  run periodicWorkflowRollupGenerator
+[D]  2025-08-09T11:38:06.065100  periodicWorkflowRollupGenerator completed
+[D]  2025-08-09T11:38:06.065100  Completed processing session: 1 tasks processed, 0 remaining
+[D]  2025-08-09T11:38:21.919416  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:38:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:38:51.920822  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:38:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:39:21.921384  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:39:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:39:51.917942  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:39:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:40:21.918881  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:40:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:40:51.916816  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:40:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:41:21.916365  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:41:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:41:51.916216  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:41:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:42:21.915769  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:42:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:42:51.918905  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:42:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:43:21.915111  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:43:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:43:51.914655  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:43:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:44:21.913459  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:44:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:44:51.912716  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:44:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:45:21.912570  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:45:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:45:51.912540  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:45:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:46:21.912748  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:46:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:46:42.852767  run periodicWorkflowEventCleanup
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T11:46:51.910696  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:46:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:47:21.910612  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:47:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:47:51.910752  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:47:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:48:21.910363  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:48:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:48:51.916342  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:48:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:49:21.908282  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:49:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:49:51.913345  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:49:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:50:21.912224  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:50:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:50:51.904937  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:50:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:51:21.923821  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:51:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:51:51.907445  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:51:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:52:21.906859  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:52:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:52:51.936054  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:52:53Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T11:53:21.905752  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:53:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:53:51.927050  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:53:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:54:21.939622  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:54:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:54:51.903569  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:54:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:55:21.902053  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:55:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:55:51.902334  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:55:53Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T11:56:21.900310  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:56:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:56:51.899961  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:56:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:57:21.899873  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:57:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:57:51.913714  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:57:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:57:55.126197  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T11:57:55.126197  Processing summary: 2025-08-09 15:37:55.126197Z to 2025-08-09 15:57:55.126197Z (queued 0s ago)
+[D]  2025-08-09T11:57:55.126197  Processing task 1/110 from queue
+[D]  2025-08-09T11:58:21.897560  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:58:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:58:51.901227  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:58:53Z","version":"1.0.0"}
+[D]  2025-08-09T11:59:21.897934  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:59:23Z","version":"1.0.0"}
+[D]  2025-08-09T11:59:51.897571  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T15:59:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:00:21.897011  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:00:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:00:51.898358  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:00:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:01:21.895456  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:01:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:01:51.896318  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:01:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:02:21.894735  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:02:23Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T12:02:51.895308  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:02:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:03:21.894102  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:03:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:03:51.893832  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:03:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:04:21.908678  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:04:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:04:55.058250  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:04:53Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T12:05:21.891588  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:05:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:05:51.903029  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:05:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:06:21.898664  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:06:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:06:51.892297  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:06:53Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T12:07:21.889432  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:07:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:07:51.888056  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:07:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:08:21.891079  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:08:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:08:51.888433  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:08:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:09:21.887915  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:09:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:09:51.887409  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:09:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:10:21.886922  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:10:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:10:51.928143  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:10:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:11:21.891171  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:11:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:11:51.885842  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:11:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:12:21.884634  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:12:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:12:51.885818  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:12:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:13:21.883367  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:13:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:13:51.883432  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:13:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:14:21.885190  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:14:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:14:51.881677  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:14:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:15:21.882813  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:15:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:15:51.880642  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:15:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:16:21.880442  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:16:23Z","version":"1.0.0"}
+[D]  2025-08-09T12:16:51.884423  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:16:53Z","version":"1.0.0"}
+[D]  2025-08-09T12:16:52.842919  InternalSubscriptionsWebsocketManager: Connection closed
+[D]  2025-08-09T12:17:22.846389  InternalSubscriptionsWebsocketManager: Attempting to reconnect...
+[D]  2025-08-09T12:17:23.026436  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-08-09T12:17:23.026436  InternalSubscriptionsWebsocketManager: Connected successfully
+[D]  2025-08-09T12:17:53.080161  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:17:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:17:55.122104  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T12:18:23.131036  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:18:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:18:53.079073  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:18:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:19:23.078360  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:19:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:19:53.101414  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:19:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:20:23.077048  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:20:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:20:53.078230  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:20:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:21:24.837440  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:21:24Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T12:21:53.076381  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:21:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:22:24.439447  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:22:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:22:53.119099  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:22:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:23:23.075777  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:23:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:23:53.073368  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:23:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:24:23.284351  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:24:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:24:53.072673  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:24:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:25:23.071505  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:25:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:25:53.072157  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:25:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:26:23.141339  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:26:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:26:53.071471  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:26:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:27:23.069212  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:27:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:27:53.069346  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:27:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:28:23.068940  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:28:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:28:53.068419  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:28:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:29:23.067565  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:29:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:29:53.067246  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:29:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:30:23.067052  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:30:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:30:53.065337  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:30:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:31:23.067054  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:31:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:31:53.066425  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:31:54Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T12:32:23.063487  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:32:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:32:53.065273  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:32:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:33:23.071792  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:33:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:33:53.063754  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:33:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:34:23.065016  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:34:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:34:53.061625  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:34:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:35:23.060682  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:35:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:35:53.061546  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:35:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:36:23.085449  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:36:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:36:50.814810  runMaintenance called
+[D]  2025-08-09T12:36:50.935244  runMaintenance completed
+[D]  2025-08-09T12:36:53.062049  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:36:54Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T12:37:23.058668  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:37:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:37:53.093388  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:37:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:37:55.121924  Removed 1 overlapping tasks from queue
+[D]  2025-08-09T12:37:55.121924  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T12:38:23.058446  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:38:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:38:53.069574  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:38:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:39:23.101158  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:39:24Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T12:39:53.057510  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:39:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:40:23.055531  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:40:24Z","version":"1.0.0"}
+[D]  2025-08-09T12:40:53.054841  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:40:54Z","version":"1.0.0"}
+[D]  2025-08-09T12:41:23.054449  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T16:41:24Z","version":"1.0.0"}
+[D]  2025-08-09T16:36:09.228569  Starting OS_Server!
+[D]  2025-08-09T16:36:09.228569  args: pieces://launch/
+[D]  2025-08-09T16:36:09.228569  Starting EnvConf
+[D]  2025-08-09T16:36:09.228569  Starting DeploymentInfo
+[D]  2025-08-09T16:36:09.242376  Number: 262
+[D]  2025-08-09T16:36:09.242376  Tag: 12.1.1
+[D]  2025-08-09T16:36:09.242376  Branch: 12.1.1
+[D]  2025-08-09T16:36:09.242376  SHA1: 45b04ac0234ca729473fa6313e508d1ed534fbff
+[D]  2025-08-09T16:36:09.242376  WinDeployType: msix
+[D]  2025-08-09T16:36:09.242376  Channel : production
+[D]  2025-08-09T16:36:09.242376  Process ID: 81796
+[D]  2025-08-09T16:36:09.242376  Copying the vocab file to the data directory
+[D]  2025-08-09T16:36:09.242376  Successfully copied the vocab file
+[D]  2025-08-09T16:36:09.242376  Starting OS
+[D]  2025-08-09T16:36:09.250630  Starting OS
+[D]  2025-08-09T16:36:09.251632  Starting UI
+[D]  2025-08-09T16:36:09.251632  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-08092025.txt
+[D]  2025-08-09T16:36:09.269503  UI#builder, hasData: false, hasError: false
+[D]  2025-08-09T16:36:09.269503  stateStream#onListen
+[D]  2025-08-09T16:36:09.269503  OS#boot
+[D]  2025-08-09T16:36:09.269503  OS#attach
+[38;5;12m[I][0m  initializeDataSingletons
+[D]  2025-08-09T16:36:09.282911  User added tagify files now exist.
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  Couchbase is open
+[D]  2025-08-09T16:39:36.156056  OS#totalTime: 206904424
+[D]  2025-08-09T16:39:36.172390  OS#onBooted
+[D]  2025-08-09T16:39:36.172390  OS#port: 39300
+[D]  2025-08-09T16:39:36.176896  UI#builder, hasData: true, hasError: false
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-08-09T16:39:36.228118  0:00:00.007869 GET     [200] /.well-known/health: port:39300
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-08-09T16:39:37.138079  OS#machine learning models initialized successfully
+[D]  2025-08-09T16:39:37.138079  Successfully to wrote our installation Path of PiecesOS C:\Program Files\WindowsApps\com.MeshIntelligentTechnologi.PiecesOS_12.1.1.0_x64__84gz00a5z79wr\os_server.exe
+[D]  2025-08-09T16:39:45.511222  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-08-09T16:39:45.512229  InternalSubscriptionsWebsocketManager: Connected successfully
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  Sentry Error Event: fc4f4e6d06b34508aa74f3bce2a220f4
+[D]  2025-08-09T16:40:15.816949  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:40:15Z","version":"1.0.0"}
+[D]  Checking for updates for MSIX Side-loaded installations
+[D]  [34m MsixUpdaterApi: Attempting to check for an updates [0m
+[D]  2025-08-09T16:40:36.624060  run periodicValidateOpenAIKey
+[D]  2025-08-09T16:40:36.636218  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T16:40:36.636218  Processing summary: 2025-08-09 20:20:36.636218Z to 2025-08-09 20:40:36.636218Z (queued 0s ago)
+[D]  2025-08-09T16:40:36.636218  Processing task 1/110 from queue
+[D]  2025-08-09T16:40:39.217261  periodicValidateOpenAIKey completed
+[D]  2025-08-09T16:40:39.217767  run periodicUserFetch
+[D]  2025-08-09T16:40:40.022051  periodicUserFetch completed
+[D]  2025-08-09T16:40:40.022051  run periodicWorkflowRollupGenerator
+[D]  [34m MsixUpdaterApi: No Updates Available [0m
+[D]  2025-08-09T16:40:42.395737  periodicWorkflowRollupGenerator completed
+[D]  2025-08-09T16:40:42.395737  Completed processing session: 1 tasks processed, 0 remaining
+[D]  2025-08-09T16:40:42.395737  run periodicWorkflowRollupRegenerator
+[D]  2025-08-09T16:40:42.461877  periodicWorkflowRollupRegenerator completed
+[D]  2025-08-09T16:40:42.461877  run periodicUserAddedTags
+[D]  2025-08-09T16:40:42.908025  periodicUserAddedTags completed
+[D]  2025-08-09T16:40:45.564260  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:40:45Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T16:41:15.563404  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:41:15Z","version":"1.0.0"}
+[D]  Checking for applet updates
+[D]  2025-08-09T16:41:45.563837  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:41:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:42:15.562079  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:42:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:42:45.561678  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:42:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:43:15.566036  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:43:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:43:45.560314  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:43:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:44:15.559922  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:44:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:44:45.560170  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:44:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:45:15.559161  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:45:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:45:45.559252  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:45:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:46:15.559315  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:46:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:46:45.557735  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:46:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:47:15.556380  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:47:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:47:45.557032  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:47:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:48:15.557549  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:48:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:48:45.554905  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:48:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:49:15.554138  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:49:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:49:45.558274  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:49:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:50:15.554885  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:50:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:50:45.553538  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:50:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:51:15.552305  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:51:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:51:45.553108  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:51:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:52:15.552024  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:52:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:52:45.550452  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:52:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:53:15.550959  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:53:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:53:45.549949  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:53:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:54:15.548777  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:54:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:54:45.821430  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:54:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:55:15.555363  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:55:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:55:45.551524  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:55:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:56:15.546657  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:56:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:56:45.547519  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:56:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:57:15.546520  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:57:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:57:45.544768  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:57:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:58:15.549255  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:58:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:58:45.543485  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:58:45Z","version":"1.0.0"}
+[D]  2025-08-09T16:59:15.544686  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:59:15Z","version":"1.0.0"}
+[D]  2025-08-09T16:59:45.544329  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T20:59:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:00:15.547169  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:00:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:00:42.397139  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T17:00:42.397139  Processing summary: 2025-08-09 20:40:42.397139Z to 2025-08-09 21:00:42.397139Z (queued 0s ago)
+[D]  2025-08-09T17:00:42.397139  Processing task 1/110 from queue
+[D]  2025-08-09T17:00:42.397139  run periodicWorkflowRollupGenerator
+[D]  2025-08-09T17:00:45.544643  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:00:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:01:15.646279  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:01:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:01:39.208758  periodicWorkflowRollupGenerator completed
+[D]  2025-08-09T17:01:39.208758  Completed processing session: 1 tasks processed, 0 remaining
+[D]  2025-08-09T17:01:45.665680  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:01:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:02:15.540984  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:02:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:02:45.541212  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:02:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:03:15.540388  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:03:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:03:45.539931  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:03:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:04:15.539414  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:04:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:04:45.546342  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:04:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:05:15.538234  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:05:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:05:45.538198  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:05:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:06:15.536535  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:06:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:06:45.537250  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:06:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:07:15.536606  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:07:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:07:45.535873  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:07:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:08:15.534973  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:08:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:08:48.981548  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:08:45Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T17:09:15.533038  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:09:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:09:36.623569  run periodicWorkflowEventCleanup
+[D]  2025-08-09T17:09:45.532874  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:09:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:10:15.532558  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:10:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:10:45.532441  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:10:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:11:15.531642  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:11:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:11:45.531937  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:11:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:12:15.534326  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:12:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:12:45.529671  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:12:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:13:15.528911  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:13:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:13:45.528651  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:13:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:14:15.528430  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:14:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:14:45.528002  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:14:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:15:15.527976  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:15:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:15:45.530112  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:15:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:16:15.527376  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:16:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:16:45.527406  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:16:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:17:15.525955  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:17:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:17:45.524927  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:17:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:18:15.523589  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:18:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:18:45.523561  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:18:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:19:15.523080  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:19:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:19:45.522220  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:19:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:20:15.521414  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:20:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:20:42.397414  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T17:20:42.397414  Processing summary: 2025-08-09 21:00:42.397414Z to 2025-08-09 21:20:42.397414Z (queued 0s ago)
+[D]  2025-08-09T17:20:42.397414  Processing task 1/110 from queue
+[D]  2025-08-09T17:20:45.520459  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:20:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:21:15.522504  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:21:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:21:45.522741  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:21:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:22:15.519811  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:22:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:22:45.518687  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:22:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:23:15.521841  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:23:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:23:45.519445  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:23:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:24:15.518745  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:24:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:24:45.518968  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:24:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:25:15.515892  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:25:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:25:45.517227  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:25:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:26:15.515455  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:26:15Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T17:26:45.535698  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:26:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:27:15.514389  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:27:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:27:45.513601  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:27:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:28:15.514642  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:28:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:28:45.513396  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:28:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:29:15.513211  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:29:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:29:45.512144  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:29:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:30:15.512809  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:30:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:30:45.512812  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:30:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:31:15.510370  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:31:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:31:45.511306  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:31:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:32:15.511428  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:32:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:32:45.510018  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:32:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:33:15.510051  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:33:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:33:45.507848  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:33:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:34:15.506110  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:34:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:34:45.507926  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:34:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:35:15.511930  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:35:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:35:45.505755  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:35:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:36:15.505166  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:36:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:36:45.505356  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:36:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:37:15.503980  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:37:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:37:45.504453  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:37:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:38:15.505099  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:38:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:38:45.504284  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:38:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:39:15.502575  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:39:15Z","version":"1.0.0"}
+[D]  2025-08-09T17:39:45.505500  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:39:45Z","version":"1.0.0"}
+[D]  2025-08-09T17:39:46.448423  InternalSubscriptionsWebsocketManager: Connection closed
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T17:40:16.450043  InternalSubscriptionsWebsocketManager: Attempting to reconnect...
+[D]  2025-08-09T17:40:16.607460  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-08-09T17:40:16.607964  InternalSubscriptionsWebsocketManager: Connected successfully
+[D]  2025-08-09T17:40:42.397742  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T17:40:46.660047  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:40:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:41:16.660377  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:41:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:41:46.659996  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:41:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:42:16.660022  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:42:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:42:46.658409  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:42:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:43:16.664077  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:43:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:43:46.656714  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:43:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:44:16.657345  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:44:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:44:46.658626  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:44:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:45:16.655023  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:45:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:45:46.655544  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:45:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:46:16.654972  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:46:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:46:46.662940  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:46:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:47:16.652368  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:47:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:47:55.545483  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:47:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:48:16.654266  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:48:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:48:46.654249  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:48:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:49:16.652579  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:49:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:49:46.651338  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:49:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:50:16.651582  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:50:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:50:46.650951  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:50:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:51:16.650513  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:51:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:51:46.651073  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:51:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:52:16.649708  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:52:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:52:46.647734  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:52:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:53:16.647654  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:53:16Z","version":"1.0.0"}
+[D]  2025-08-09T17:53:46.652025  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T21:53:46Z","version":"1.0.0"}
+[D]  2025-08-09T17:57:34.527259  Starting OS_Server!
+[D]  2025-08-09T17:57:34.527259  args: pieces://launch/
+[D]  2025-08-09T17:57:34.527259  Starting EnvConf
+[D]  2025-08-09T17:57:34.527259  Starting DeploymentInfo
+[D]  2025-08-09T17:57:34.529262  Number: 262
+[D]  2025-08-09T17:57:34.529262  Tag: 12.1.1
+[D]  2025-08-09T17:57:34.529262  Branch: 12.1.1
+[D]  2025-08-09T17:57:34.529262  SHA1: 45b04ac0234ca729473fa6313e508d1ed534fbff
+[D]  2025-08-09T17:57:34.529262  WinDeployType: msix
+[D]  2025-08-09T17:57:34.529262  Channel : production
+[D]  2025-08-09T17:57:34.529262  Process ID: 188136
+[D]  2025-08-09T17:57:34.529262  Copying the vocab file to the data directory
+[D]  2025-08-09T17:57:34.529262  Successfully copied the vocab file
+[D]  2025-08-09T17:57:34.529262  Starting OS
+[D]  2025-08-09T17:57:34.532907  Starting OS
+[D]  2025-08-09T17:57:34.534917  Starting UI
+[D]  2025-08-09T17:57:34.534917  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-08092025.txt
+[D]  2025-08-09T17:57:34.546371  UI#builder, hasData: false, hasError: false
+[D]  2025-08-09T17:57:34.547372  stateStream#onListen
+[D]  2025-08-09T17:57:34.547372  OS#boot
+[D]  2025-08-09T17:57:34.547372  OS#attach
+[38;5;12m[I][0m  initializeDataSingletons
+[D]  2025-08-09T17:57:34.563526  User added tagify files now exist.
+[D]  2025-08-09T18:00:08.044948  ARGS
+[D]  2025-08-09T18:00:08.045695  pieces://launch/
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  Couchbase is open
+[D]  2025-08-09T18:02:24.463895  OS#totalTime: 289928978
+[D]  2025-08-09T18:02:24.486312  OS#onBooted
+[D]  2025-08-09T18:02:24.486312  OS#port: 39300
+[D]  2025-08-09T18:02:24.491838  UI#builder, hasData: true, hasError: false
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-08-09T18:02:24.520793  0:00:00.006844 GET     [200] /.well-known/health: port:39300
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-08-09T18:02:25.526572  OS#machine learning models initialized successfully
+[D]  2025-08-09T18:02:25.529579  Successfully to wrote our installation Path of PiecesOS C:\Program Files\WindowsApps\com.MeshIntelligentTechnologi.PiecesOS_12.1.1.0_x64__84gz00a5z79wr\os_server.exe
+[D]  2025-08-09T18:02:35.204161  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-08-09T18:02:35.204161  InternalSubscriptionsWebsocketManager: Connected successfully
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  Sentry Error Event: a2c502077a41437282757a69dbaeb14e
+[D]  2025-08-09T18:03:05.256491  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:03:05Z","version":"1.0.0"}
+[D]  Checking for updates for MSIX Side-loaded installations
+[D]  [34m MsixUpdaterApi: Attempting to check for an updates [0m
+[D]  2025-08-09T18:03:25.002874  run periodicValidateOpenAIKey
+[D]  2025-08-09T18:03:25.019967  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T18:03:25.019967  Processing summary: 2025-08-09 21:43:25.019967Z to 2025-08-09 22:03:25.019967Z (queued 0s ago)
+[D]  2025-08-09T18:03:25.019967  Processing task 1/110 from queue
+[D]  [34m MsixUpdaterApi: No Updates Available [0m
+[D]  Sentry Error Event: aaa210091d4544599b7d246ccdb76095
+[D]  2025-08-09T18:03:35.257383  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:03:35Z","version":"1.0.0"}
+[D]  2025-08-09T18:03:37.403322  periodicValidateOpenAIKey completed
+[D]  2025-08-09T18:03:37.403322  run periodicUserFetch
+[D]  2025-08-09T18:03:37.556701  periodicUserFetch completed
+[D]  2025-08-09T18:03:37.556701  run periodicWorkflowRollupGenerator
+[D]  2025-08-09T18:04:05.257741  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:04:05Z","version":"1.0.0"}
+[D]  Checking for applet updates
+[D]  2025-08-09T18:04:35.254358  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:04:35Z","version":"1.0.0"}
+[D]  2025-08-09T18:05:05.254333  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:05:05Z","version":"1.0.0"}
+[D]  2025-08-09T18:05:12.053500  periodicWorkflowRollupGenerator completed
+[D]  2025-08-09T18:05:12.053500  Completed processing session: 1 tasks processed, 0 remaining
+[D]  2025-08-09T18:05:12.053500  run periodicWorkflowRollupRegenerator
+[D]  2025-08-09T18:05:12.627591  periodicWorkflowRollupRegenerator completed
+[D]  2025-08-09T18:05:12.627591  run periodicUserAddedTags
+[D]  2025-08-09T18:05:13.061157  periodicUserAddedTags completed
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T18:05:35.253135  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:05:35Z","version":"1.0.0"}
+[D]  2025-08-09T18:06:05.253057  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:06:05Z","version":"1.0.0"}
+[D]  2025-08-09T18:06:35.250846  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:06:35Z","version":"1.0.0"}
+[D]  2025-08-09T18:07:05.252005  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:07:05Z","version":"1.0.0"}
+[D]  2025-08-09T18:07:35.249768  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:07:35Z","version":"1.0.0"}
+[D]  2025-08-09T18:08:05.252035  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:08:05Z","version":"1.0.0"}
+[D]  2025-08-09T18:08:35.251019  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:08:35Z","version":"1.0.0"}
+[D]  2025-08-09T18:08:57.673318  ARGS
+[D]  2025-08-09T18:08:57.673318  pieces://launch/
+[D]  2025-08-09T18:09:05.250327  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:09:05Z","version":"1.0.0"}
+[D]  2025-08-09T18:09:35.248858  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:09:35Z","version":"1.0.0"}
+[D]  2025-08-09T18:10:05.249510  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:10:05Z","version":"1.0.0"}
+[D]  2025-08-09T18:10:35.248987  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:10:35Z","version":"1.0.0"}
+[D]  2025-08-09T18:18:24.474103  Starting OS_Server!
+[D]  2025-08-09T18:18:24.474103  args: pieces://launch/
+[D]  2025-08-09T18:18:24.474103  Starting EnvConf
+[D]  2025-08-09T18:18:24.474103  Starting DeploymentInfo
+[D]  2025-08-09T18:18:24.476110  Number: 262
+[D]  2025-08-09T18:18:24.476110  Tag: 12.1.1
+[D]  2025-08-09T18:18:24.476110  Branch: 12.1.1
+[D]  2025-08-09T18:18:24.476110  SHA1: 45b04ac0234ca729473fa6313e508d1ed534fbff
+[D]  2025-08-09T18:18:24.476110  WinDeployType: msix
+[D]  2025-08-09T18:18:24.476110  Channel : production
+[D]  2025-08-09T18:18:24.476110  Process ID: 52060
+[D]  2025-08-09T18:18:24.476110  Copying the vocab file to the data directory
+[D]  2025-08-09T18:18:24.476110  Successfully copied the vocab file
+[D]  2025-08-09T18:18:24.476110  Starting OS
+[D]  2025-08-09T18:18:24.482024  Starting OS
+[D]  2025-08-09T18:18:24.483565  Starting UI
+[D]  2025-08-09T18:18:24.484570  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-08092025.txt
+[D]  2025-08-09T18:18:24.487588  UI#builder, hasData: false, hasError: false
+[D]  2025-08-09T18:18:24.488099  stateStream#onListen
+[D]  2025-08-09T18:18:24.488099  OS#boot
+[D]  2025-08-09T18:18:24.488099  OS#attach
+[38;5;12m[I][0m  initializeDataSingletons
+[D]  2025-08-09T18:18:24.505972  User added tagify files now exist.
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  Couchbase is open
+[D]  2025-08-09T18:20:31.638007  OS#totalTime: 127154442
+[D]  2025-08-09T18:20:31.655316  OS#onBooted
+[D]  2025-08-09T18:20:31.655316  OS#port: 39300
+[D]  2025-08-09T18:20:31.659570  UI#builder, hasData: true, hasError: false
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-08-09T18:20:31.701677  0:00:00.010201 GET     [200] /.well-known/health: port:39300
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-08-09T18:20:32.573848  OS#machine learning models initialized successfully
+[D]  2025-08-09T18:20:32.576857  Successfully to wrote our installation Path of PiecesOS C:\Program Files\WindowsApps\com.MeshIntelligentTechnologi.PiecesOS_12.1.1.0_x64__84gz00a5z79wr\os_server.exe
+[D]  2025-08-09T18:20:39.163455  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-08-09T18:20:39.165048  InternalSubscriptionsWebsocketManager: Connected successfully
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T18:21:10.591992  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:21:09Z","version":"1.0.0"}
+[D]  Checking for updates for MSIX Side-loaded installations
+[D]  [34m MsixUpdaterApi: Attempting to check for an updates [0m
+[D]  2025-08-09T18:21:32.117384  run periodicValidateOpenAIKey
+[D]  2025-08-09T18:21:32.132506  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T18:21:32.132506  Processing summary: 2025-08-09 22:01:32.132506Z to 2025-08-09 22:21:32.132506Z (queued 0s ago)
+[D]  2025-08-09T18:21:32.132506  Processing task 1/110 from queue
+[D]  2025-08-09T18:21:36.446446  periodicValidateOpenAIKey completed
+[D]  2025-08-09T18:21:36.446446  run periodicUserFetch
+[D]  2025-08-09T18:21:37.050793  periodicUserFetch completed
+[D]  2025-08-09T18:21:37.050793  run periodicWorkflowRollupGenerator
+[D]  [34m MsixUpdaterApi: No Updates Available [0m
+[D]  2025-08-09T18:21:44.194243  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:21:39Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T18:22:09.215144  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:22:09Z","version":"1.0.0"}
+[D]  Checking for applet updates
+[D]  2025-08-09T18:22:39.214803  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:22:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:23:09.212700  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:23:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:23:21.241429  periodicWorkflowRollupGenerator completed
+[D]  2025-08-09T18:23:21.241429  Completed processing session: 1 tasks processed, 0 remaining
+[D]  2025-08-09T18:23:21.242429  run periodicWorkflowRollupRegenerator
+[D]  2025-08-09T18:23:21.744195  periodicWorkflowRollupRegenerator completed
+[D]  2025-08-09T18:23:21.744195  run periodicUserAddedTags
+[D]  2025-08-09T18:23:22.138170  periodicUserAddedTags completed
+[D]  2025-08-09T18:23:39.213069  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:23:39Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T18:24:09.212531  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:24:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:24:39.211617  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:24:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:25:09.209956  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:25:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:25:39.210105  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:25:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:26:09.212768  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:26:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:26:39.210848  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:26:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:27:09.642344  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:27:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:27:39.207777  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:27:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:28:09.207279  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:28:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:28:39.207434  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:28:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:29:09.205738  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:29:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:29:39.205644  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:29:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:30:09.205776  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:30:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:30:39.205366  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:30:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:31:09.223542  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:31:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:31:39.203699  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:31:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:32:09.202597  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:32:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:32:39.203751  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:32:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:33:09.203999  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:33:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:33:39.203359  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:33:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:33:39.393953  ARGS
+[D]  2025-08-09T18:33:39.393953  pieces://launch/
+[D]  2025-08-09T18:34:09.204904  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:34:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:34:39.200873  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:34:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:35:09.201266  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:35:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:35:39.200103  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:35:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:36:09.198309  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:36:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:36:39.198432  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:36:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:37:09.201859  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:37:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:37:39.199051  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:37:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:38:09.196851  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:38:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:38:39.196428  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:38:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:39:09.197865  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:39:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:39:39.195578  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:39:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:40:09.194201  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:40:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:40:39.324567  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:40:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:41:09.194828  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:41:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:41:39.194442  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:41:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:42:09.195297  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:42:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:42:39.196629  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:42:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:43:09.201332  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:43:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:43:21.243817  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T18:43:21.243817  Processing summary: 2025-08-09 22:23:21.243817Z to 2025-08-09 22:43:21.243817Z (queued 0s ago)
+[D]  2025-08-09T18:43:21.243817  Processing task 1/110 from queue
+[D]  2025-08-09T18:43:21.243817  run periodicWorkflowRollupGenerator
+[D]  2025-08-09T18:43:39.193861  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:43:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:44:09.191282  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:44:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:44:39.191287  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:44:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:45:09.321054  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:45:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:45:39.190699  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:45:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:46:02.282458  periodicWorkflowRollupGenerator completed
+[D]  2025-08-09T18:46:02.283459  Completed processing session: 1 tasks processed, 0 remaining
+[D]  2025-08-09T18:46:09.189919  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:46:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:46:39.190362  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:46:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:47:09.187311  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:47:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:47:39.186883  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:47:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:48:09.186895  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:48:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:48:39.190154  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:48:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:49:09.185888  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:49:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:49:39.192965  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:49:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:50:09.187402  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:50:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:50:32.117105  run periodicWorkflowEventCleanup
+[D]  2025-08-09T18:50:39.183897  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:50:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:51:09.183400  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:51:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:51:39.182153  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:51:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:52:09.183493  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:52:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:52:39.182667  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:52:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:53:09.207320  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:53:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:53:39.181471  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:53:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:54:09.181592  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:54:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:54:39.179950  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:54:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:55:09.180204  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:55:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:55:39.179447  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:55:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:56:09.180218  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:56:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:56:39.177180  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:56:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:57:09.177802  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:57:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:57:39.176538  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:57:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:58:09.177044  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:58:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:58:39.174607  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:58:39Z","version":"1.0.0"}
+[D]  2025-08-09T18:59:09.176285  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:59:09Z","version":"1.0.0"}
+[D]  2025-08-09T18:59:39.173904  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T22:59:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:00:09.174132  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:00:09Z","version":"1.0.0"}
+[D]  2025-08-09T19:00:39.173267  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:00:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:01:09.268516  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:01:09Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T19:01:39.173956  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:01:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:02:09.173487  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:02:09Z","version":"1.0.0"}
+[D]  2025-08-09T19:02:39.176725  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:02:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:03:09.171482  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:03:09Z","version":"1.0.0"}
+[D]  2025-08-09T19:03:21.246026  Summary queue: 1/100 items (20min window)
+[D]  2025-08-09T19:03:21.246026  Processing summary: 2025-08-09 22:43:21.246026Z to 2025-08-09 23:03:21.246026Z (queued 0s ago)
+[D]  2025-08-09T19:03:21.246026  Processing task 1/110 from queue
+[D]  2025-08-09T19:03:39.171200  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:03:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:04:09.170628  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:04:09Z","version":"1.0.0"}
+[D]  2025-08-09T19:04:39.171248  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:04:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:05:09.178099  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:05:09Z","version":"1.0.0"}
+[D]  2025-08-09T19:05:39.168418  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:05:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:06:09.167537  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:06:09Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-08-09T19:06:39.168393  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:06:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:07:09.165893  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:07:09Z","version":"1.0.0"}
+[D]  2025-08-09T19:07:39.165681  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:07:39Z","version":"1.0.0"}
+[D]  2025-08-09T19:08:09.165270  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:08:09Z","version":"1.0.0"}
+[D]  2025-08-09T19:08:39.188824  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-08-09T23:08:39Z","version":"1.0.0"}

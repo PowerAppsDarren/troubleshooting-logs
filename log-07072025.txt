@@ -1,0 +1,701 @@
+[D]  2025-07-07T11:56:32.229319  Starting OS_Server!
+[D]  2025-07-07T11:56:32.230831  Starting EnvConf
+[D]  2025-07-07T11:56:32.230831  Starting DeploymentInfo
+[D]  2025-07-07T11:56:32.235462  Number: 260
+[D]  2025-07-07T11:56:32.235462  Tag: 12.1.0
+[D]  2025-07-07T11:56:32.235462  Branch: 12.1.0
+[D]  2025-07-07T11:56:32.235462  SHA1: 18c8d6fa9ddb7be6d49ce20806643173cd508299
+[D]  2025-07-07T11:56:32.235462  WinDeployType: msix
+[D]  2025-07-07T11:56:32.235462  Channel : production
+[D]  2025-07-07T11:56:32.235462  Process ID: 42260
+[D]  2025-07-07T11:56:32.235462  Copying the vocab file to the data directory
+[D]  2025-07-07T11:56:32.235462  Successfully copied the vocab file
+[D]  2025-07-07T11:56:32.235462  Starting OS
+[D]  2025-07-07T11:56:32.916182  Starting OS
+[D]  2025-07-07T11:56:32.916702  Starting UI
+[D]  2025-07-07T11:56:32.917310  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-07072025.txt
+[D]  2025-07-07T11:56:32.926785  UI#builder, hasData: false, hasError: false
+[D]  2025-07-07T11:56:32.926785  stateStream#onListen
+[D]  2025-07-07T11:56:32.926785  OS#boot
+[D]  2025-07-07T11:56:32.926785  OS#attach
+[38;5;12m[I][0m  initializeDataSingletons
+[D]  2025-07-07T11:56:32.927786  User added tagify files now exist.
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  Couchbase is open
+[D]  2025-07-07T11:57:22.657674  OS#totalTime: 49740972
+[D]  2025-07-07T11:57:22.667233  OS#onBooted
+[D]  2025-07-07T11:57:22.667233  OS#port: 39300
+[D]  2025-07-07T11:57:22.671403  UI#builder, hasData: true, hasError: false
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-07-07T11:57:22.715528  0:00:00.006554 GET     [200] /.well-known/health: port:39300
+[D]  Setting WinToast Dismissed Callback
+[D]  2025-07-07T11:57:24.395465  OS#machine learning models initialized successfully
+[D]  2025-07-07T11:57:24.397470  Successfully to wrote our installation Path of PiecesOS C:\Program Files\WindowsApps\com.MeshIntelligentTechnologi.PiecesOS_12.1.0.0_x64__84gz00a5z79wr\os_server.exe
+[D]  2025-07-07T11:57:30.115077  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-07-07T11:57:30.116139  InternalSubscriptionsWebsocketManager: Connected successfully
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T11:58:00.170259  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T15:58:00Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  Checking for updates for MSIX Side-loaded installations
+[D]  [34m MsixUpdaterApi: Attempting to check for an updates [0m
+[D]  2025-07-07T11:58:23.998536  run periodicValidateOpenAIKey
+[D]  2025-07-07T11:58:24.009054  periodicValidateOpenAIKey completed
+[D]  2025-07-07T11:58:24.009054  run periodicUserFetch
+[D]  2025-07-07T11:58:24.621378  periodicUserFetch completed
+[D]  2025-07-07T11:58:24.622379  run periodicUserAddedTags
+[D]  2025-07-07T11:58:25.013621  periodicUserAddedTags completed
+[D]  2025-07-07T11:58:25.013621  run periodicWorkflowRollupGenerator
+[D]  [34m MsixUpdaterApi: No Updates Available [0m
+[D]  2025-07-07T11:58:30.171242  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T15:58:30Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T11:59:00.170653  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T15:59:00Z","version":"1.0.0"}
+[D]  Checking for applet updates
+[D]  2025-07-07T11:59:30.167827  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T15:59:30Z","version":"1.0.0"}
+[D]  2025-07-07T11:59:55.935301  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T11:59:55.935301  run periodicWorkflowRollupRegenerator
+[D]  2025-07-07T12:00:00.172830  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:00:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:00:30.167478  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:00:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: c769dbceafc449cfb3c99673702c5769
+[D]  Sentry Error Event: 90c23840b182446895428686fe18a832
+[D]  Sentry Error Event: 8102660563e143d69d62a4f3e483f3fd
+[D]  Sentry Error Event: b35c941f545a4a34a01f6b75916dfb75
+[D]  2025-07-07T12:01:00.166738  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:01:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:01:30.176616  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:01:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:01:54.144193  periodicWorkflowRollupRegenerator completed
+[D]  Sentry Error Event: b2bca1e1a2bf4c9582b0b08374d9dd0e
+[D]  Sentry Error Event: e89a040da5b7415bbf4c7b4955d92804
+[D]  Sentry Error Event: 7b447a7bfd0b40539350582c9474e578
+[D]  Sentry Error Event: 8dc4a4250f384b4ba3fe0632520db65c
+[D]  2025-07-07T12:02:00.162319  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:02:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:02:30.164966  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:02:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:03:00.164742  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:03:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: 79234d92388f407baf7578ef801257f9
+[D]  Sentry Error Event: 478d91b9df0d43fb9206d0847e874e2e
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:03:30.162616  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:03:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:04:00.162018  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:04:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:04:30.161988  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:04:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:05:00.160080  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:05:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:05:30.160620  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:05:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:06:00.160310  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:06:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: c368033733e440b4aa6b397003f4bbd5
+[D]  Sentry Error Event: 0ab3a7ef19644720b80ed799fc363d57
+[D]  2025-07-07T12:06:30.158983  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:06:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:07:00.157572  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:07:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:07:30.157124  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:07:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 966a08436d0a4e5d942506a495c0e5a4
+[D]  Sentry Error Event: 4ea98e9a075a4e3793db3754064b16b4
+[D]  2025-07-07T12:08:00.156266  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:08:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:08:30.156751  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:08:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:09:00.155794  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:09:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:09:30.155029  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:09:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:10:00.153952  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:10:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: a7ef9e2bee2649c4a52fd3aeb98f32d7
+[D]  Sentry Error Event: da43c322762740a194638b83ae3182d3
+[D]  2025-07-07T12:10:30.153968  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:10:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:11:00.152196  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:11:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:11:30.152029  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:11:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:12:00.282756  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:12:00Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:12:30.151961  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:12:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:13:00.150360  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:13:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:13:30.149359  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:13:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:14:00.147802  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:14:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:14:30.147869  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:14:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:15:00.148231  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:15:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:15:30.146873  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:15:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:16:00.143992  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:16:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:16:30.143166  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:16:30Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:17:00.143361  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:17:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:17:30.144160  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:17:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:18:00.143556  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:18:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:18:30.140565  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:18:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:19:00.141438  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:19:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:19:30.141792  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:19:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:19:55.937630  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T12:20:00.139639  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:20:00Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:20:30.140601  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:20:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:20:51.226526  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T12:21:00.139432  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:21:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:21:30.139262  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:21:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:22:00.138620  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:22:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:22:30.137453  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:22:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:23:00.136629  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:23:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:23:30.133588  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:23:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:24:00.135075  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:24:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:24:30.135069  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:24:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:25:00.134029  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:25:00Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:25:30.132382  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:25:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:26:00.133506  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:26:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:26:30.130746  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:26:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:27:00.131111  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:27:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:27:23.998151  run periodicWorkflowEventCleanup
+[D]  2025-07-07T12:27:30.129775  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:27:30Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:28:00.129783  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:28:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:28:30.129050  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:28:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:29:00.128599  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:29:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:29:30.127847  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:29:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:30:00.131553  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:30:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:30:30.123958  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:30:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:31:00.123677  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:31:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: 1b5502782be84179af9fec7f22ed2484
+[D]  Sentry Error Event: 40445022ad5944739aa1e2c465efbf52
+[D]  2025-07-07T12:31:30.122763  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:31:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:32:00.131901  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:32:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: 1e18923b488d41d383ee0922c26eec96
+[D]  Sentry Error Event: 13947eab898f4107a6c8a845fd7d678c
+[D]  2025-07-07T12:32:30.123043  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:32:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:33:00.121791  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:33:00Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:33:30.130582  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:33:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:34:00.122253  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:34:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:34:30.119784  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:34:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:35:00.120035  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:35:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:35:30.117814  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:35:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:36:00.130283  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:36:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:36:30.117497  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:36:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:37:00.117624  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:37:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:37:30.116236  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:37:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:38:00.114514  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:38:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:38:30.114225  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:38:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:39:00.114041  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:39:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:39:30.114486  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:39:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:40:00.111669  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:40:00Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:40:30.112625  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:40:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:41:00.110465  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:41:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:41:30.110863  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:41:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:42:00.108440  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:42:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:42:30.107036  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:42:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:43:00.107599  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:43:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:43:30.107187  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:43:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 8e17096ac1cf4e89a90b25e81c94afa2
+[D]  Sentry Error Event: e8e5be765a7f4a62a120305ac876f9e1
+[D]  2025-07-07T12:44:00.115067  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:44:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:44:30.106655  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:44:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 03726f30fc9d4ee0a837b93b60a0d73d
+[D]  Sentry Error Event: 1cc7d5b7e1294d5985f1f5fc70f1ff6d
+[D]  2025-07-07T12:45:00.103912  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:45:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: 18e0afbf47c94eda87605e560b064719
+[D]  Sentry Error Event: bc22006820b24ad39673fd4bc7b03d76
+[D]  Sentry Error Event: 932af81269534e29aadc5e3b5bc2d738
+[D]  Sentry Error Event: ae4642b078fd4ae2a96165a3c4148571
+[D]  2025-07-07T12:45:30.104306  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:45:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: eff5d1b9619e42f990daddd103829e70
+[D]  Sentry Error Event: dc787048898d4d4890160f2d65453c99
+[D]  2025-07-07T12:46:00.136455  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:46:00Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  Sentry Error Event: 3cb5711cf0a34837bcc536753deb7efa
+[D]  Sentry Error Event: f6c30334db2840e3abbb0fc58e852eb7
+[D]  2025-07-07T12:46:30.102750  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:46:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 2e2dc2687f594ec9a8d4ce0254ba42a4
+[D]  Sentry Error Event: eea929881d8f4d82a0423cb2f2d9bdb0
+[D]  Sentry Error Event: 4476fd79dfb24128b94b920420973262
+[D]  Sentry Error Event: 2bc3c46754b14480bd81e3b496e4e12a
+[D]  2025-07-07T12:47:00.105737  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:47:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: 2613757ef5b44717a1a0d4f2d838b36a
+[D]  Sentry Error Event: b3e584bb762b466787d0f5262818303f
+[D]  2025-07-07T12:47:30.100144  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:47:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: ea3c40b13d99456da3de9cb1f3706453
+[D]  Sentry Error Event: 01e6fbce17584874b01040aaed68acd4
+[D]  Sentry Error Event: e05004f655954e12aa61ad8a007443c2
+[D]  Sentry Error Event: bc60015e9dde405581726f37ae3ff783
+[D]  2025-07-07T12:48:00.101287  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:48:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:48:30.101252  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:48:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:49:00.101578  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:49:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:49:30.100396  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:49:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:50:00.096851  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:50:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:50:30.097375  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:50:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 1814fa76531d4fd8b089f6c47f34b34c
+[D]  Sentry Error Event: 1c65b44df210460599197c42cd342dbe
+[D]  2025-07-07T12:51:00.097646  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:51:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:51:30.096039  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:51:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 1ce3598bc45f4c378d7cd32a355abf1f
+[D]  Sentry Error Event: c428dc70bfd34f1eb291b536847d443e
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  Sentry Error Event: 60b2e1c3b3184c93a87d50d42d71bb01
+[D]  Sentry Error Event: 3ccfb1da9cc44128af63ca294191c5ee
+[D]  2025-07-07T12:52:00.097077  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:52:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: 16d8756fd5dc46ecb6d86d715c8f6619
+[D]  Sentry Error Event: d26d28f0295c40d7b2db384cecfec1da
+[D]  2025-07-07T12:52:30.094375  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:52:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 1832e6e68da24ca9a0a45925a31193e9
+[D]  Sentry Error Event: 0b6b8caab9a94f9cb5fbbceee004e622
+[D]  2025-07-07T12:53:00.094784  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:53:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:53:30.094174  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:53:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 95f5997dd339448e8162147c46406988
+[D]  Sentry Error Event: 0b9f969a3d7c49b8a72563e719996c1a
+[D]  2025-07-07T12:54:00.093175  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:54:00Z","version":"1.0.0"}
+[D]  2025-07-07T12:54:30.091437  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:54:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: edac02d7519e484ca120f1ccb24ee661
+[D]  Sentry Error Event: f7ef2a1f00c34970add42717f1a2a508
+[D]  2025-07-07T12:55:00.091790  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:55:00Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T12:55:30.091492  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:55:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:56:00.089599  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:56:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: 4dd719e0db09428596741eb4eff85f6b
+[D]  Sentry Error Event: 70437013d06840a78d6976ca9949a835
+[D]  2025-07-07T12:56:30.089862  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:56:30Z","version":"1.0.0"}
+[D]  Sentry Error Event: 61413250c39a4e929eef8871afb20d3c
+[D]  Sentry Error Event: 5b97de2557ed42fd9b73377e2a2aaadf
+[D]  2025-07-07T12:57:00.124302  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:57:00Z","version":"1.0.0"}
+[D]  Sentry Error Event: 51df89fde28245ad9ed69f1df4cf3702
+[D]  Sentry Error Event: 9703863cd92b47ba96576df54ffadf95
+[D]  2025-07-07T12:57:30.095569  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:57:30Z","version":"1.0.0"}
+[D]  2025-07-07T12:57:31.030540  InternalSubscriptionsWebsocketManager: Connection closed
+[D]  Sentry Error Event: 3824e42243e943689c6275e2b6224f8b
+[D]  Sentry Error Event: ca272e9b72424957bbcd82c82ef201ec
+[D]  2025-07-07T12:58:01.035200  InternalSubscriptionsWebsocketManager: Attempting to reconnect...
+[D]  2025-07-07T12:58:01.193108  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-07-07T12:58:01.193108  InternalSubscriptionsWebsocketManager: Connected successfully
+[D]  Sentry Error Event: 76e1e5a4335946e684887c2b51578f64
+[D]  Sentry Error Event: 8c051cfaf96347669e8d7f6a82bf952a
+[D]  Sentry Error Event: 92d1b9fcf2094cc5901fe843385decd0
+[D]  Sentry Error Event: 17948441674b4b67ab46de03a1400fc3
+[D]  2025-07-07T12:58:31.246715  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:58:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 26846e887de84097808e2c47b644b497
+[D]  Sentry Error Event: 8004ef648b7a4c8e82887061771387b7
+[D]  2025-07-07T12:59:01.246788  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:59:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: 5f8a0932977a482e8ea5dd1f82d9afa3
+[D]  Sentry Error Event: 898c01a09fd84b65b11c044db16d5a63
+[D]  2025-07-07T12:59:31.245  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T16:59:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 77d806649aab4097b9294972d8836895
+[D]  Sentry Error Event: 8011a426af9b4f04ab1f2aebc4558d08
+[D]  2025-07-07T13:00:01.243891  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:00:01Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:00:31.243844  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:00:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:01:01.243235  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:01:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:01:31.240034  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:01:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 4fa660c08c8547b399a14f002086e4b6
+[D]  Sentry Error Event: b5f3e43d3704428588b3b1df0ce15707
+[D]  2025-07-07T13:02:01.240384  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:02:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: 6443bb7aae4f43c1be69c3b4dcd2aca8
+[D]  Sentry Error Event: 23f925fce9d94a6f9e5c4285c6aa078b
+[D]  2025-07-07T13:02:31.240292  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:02:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:03:01.238934  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:03:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: 5e7e8908dc9d4ed3affe39cf4ca715a0
+[D]  Sentry Error Event: 33d785f9f8a34e71bc622624782e8483
+[D]  2025-07-07T13:03:31.237838  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:03:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: d221fad23e054dd090abec4f7bcc5f38
+[D]  Sentry Error Event: a82287fa6d6645c7b21dd5250c6b462a
+[D]  2025-07-07T13:04:01.238155  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:04:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:04:31.235576  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:04:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:05:01.237648  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:05:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: 47fc9563c0dc4d088dbc89fb62ae0651
+[D]  Sentry Error Event: 51f808cf2db1495ca2764578443d5132
+[D]  2025-07-07T13:05:31.235904  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:05:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:06:01.236730  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:06:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:06:31.233673  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:06:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:07:01.233370  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:07:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:07:31.233631  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:07:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:08:01.232775  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:08:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:08:31.232464  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:08:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:09:01.229441  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:09:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:09:31.228991  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:09:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:10:01.229874  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:10:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:10:31.230848  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:10:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:11:01.228164  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:11:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:11:31.228871  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:11:31Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:12:01.230829  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:12:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:12:31.227697  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:12:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: ed95c1cd0dfb4e36a8647a87756c59ad
+[D]  Sentry Error Event: f95608e6647f468e91223abb086d0daa
+[D]  Sentry Error Event: 5775fb407e654995a5bb50af155937d0
+[D]  Sentry Error Event: 58892bc777764b428910a094c433d90d
+[D]  Sentry Error Event: cc850b63c151414c8ffdc3d82b786041
+[D]  Sentry Error Event: 648ce6eff3d84e59b01b6090050912ea
+[D]  2025-07-07T13:13:01.223897  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:13:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:13:31.222280  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:13:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:14:01.223898  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:14:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:14:31.223714  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:14:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:15:01.222194  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:15:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:15:31.236370  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:15:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:16:01.221285  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:16:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:16:31.220083  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:16:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:17:01.220853  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:17:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: b901e1f9951445a2af3d15ddf9567f58
+[D]  Sentry Error Event: 1fa136abb07e40929821df0dbd040092
+[D]  2025-07-07T13:17:27.050993  runMaintenance called
+[D]  2025-07-07T13:17:27.941074  runMaintenance completed
+[D]  2025-07-07T13:17:31.218893  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:17:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:18:01.218121  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:18:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:18:31.217082  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:18:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:19:01.226398  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:19:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:19:31.216563  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:19:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:20:01.216066  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:20:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:20:31.214879  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:20:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:21:01.213952  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:21:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:21:31.215034  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:21:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:22:01.213782  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:22:01Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  Sentry Error Event: d18f45fa9d404c17b1a6721428b74d9f
+[D]  Sentry Error Event: dada3c6ac6d44e448e07c5d253f3c0a0
+[D]  2025-07-07T13:22:31.212380  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:22:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:23:01.225430  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:23:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:23:31.211116  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:23:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:24:01.209564  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:24:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:24:31.209152  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:24:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:25:01.208930  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:25:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:25:31.206991  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:25:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:26:01.207163  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:26:01Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:26:31.206635  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:26:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:27:01.205749  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:27:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:27:31.204863  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:27:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:28:01.205301  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:28:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:28:31.203005  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:28:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:29:01.206426  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:29:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:29:31.202647  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:29:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:29:39.060694  periodicWorkflowEventCleanup completed
+[D]  2025-07-07T13:29:39.060694  run periodicWorkflowRollupGenerator
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:30:01.201693  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:30:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:30:31.200215  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:30:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: fef56e3c202d48c99963bc655cbe9cd9
+[D]  Sentry Error Event: 2974f2330a09425b96bcbf32e50ba850
+[D]  2025-07-07T13:31:01.203172  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:31:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:31:29.934316  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T13:31:29.934316  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T13:31:31.198324  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:31:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 19aca6201e0d43cf90198bf28a9fdd44
+[D]  Sentry Error Event: 897e7d8cd16841aaa72bc82195c349f7
+[D]  2025-07-07T13:31:56.025479  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T13:31:56.025479  run periodicWorkflowRollupRegenerator
+[D]  2025-07-07T13:32:01.199318  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:32:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: d8e2cacf15524963903d62fd1d966213
+[D]  2025-07-07T13:32:31.198082  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:32:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:33:01.197997  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:33:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:33:31.197129  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:33:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: e1968a9534ca465c9cabcd433d857de8
+[D]  Sentry Error Event: d58feb347c5d4ee59d606cd95ae4d05b
+[D]  2025-07-07T13:34:01.203775  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:34:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:34:31.195860  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:34:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:35:01.194388  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:35:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:35:31.193436  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:35:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:36:01.193013  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:36:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:36:31.196170  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:36:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 8c85578765a743febb88d571616a3964
+[D]  Sentry Error Event: a15ed39b3a42420abd4fa805ace22a6c
+[D]  2025-07-07T13:37:01.192141  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:37:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: 4b986f02c33f4bc682802e99ad01e832
+[D]  Sentry Error Event: 84fc74f0d1404d459bc786ef89151081
+[D]  2025-07-07T13:37:31.190748  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:37:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 8a047441208a469fb8f82cb38869c329
+[D]  2025-07-07T13:38:01.119141  periodicWorkflowRollupRegenerator completed
+[D]  2025-07-07T13:38:01.119141  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T13:38:01.190493  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:38:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:38:25.578681  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T13:38:31.202994  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:38:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:39:01.188493  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:39:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:39:31.188272  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:39:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:39:55.937479  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T13:40:01.187363  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:40:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:40:05.100499  periodicWorkflowRollupGenerator completed
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:40:31.186903  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:40:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: a5c55a332c53472bb38381c1c2a60326
+[D]  Sentry Error Event: db46c3cfea194eb7ba6e01b09d88770e
+[D]  Sentry Error Event: 01126ea602ee4eee8a4907e266382798
+[D]  Sentry Error Event: 4a9c30903d0546a7b7eb5e1b5bbc6437
+[D]  2025-07-07T13:41:01.184955  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:41:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:41:31.185173  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:41:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 9f73a8da7a924440ba74239e34cdb0da
+[D]  Sentry Error Event: fc5cd89f58694bfa97d4f501ca69e84c
+[D]  2025-07-07T13:42:01.184860  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:42:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: df4918f39f9d4be88e05fd2ec275b503
+[D]  Sentry Error Event: 34120fd1eca3424abd1a12bfd6a887f5
+[D]  2025-07-07T13:42:31.183030  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:42:31Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:43:01.182139  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:43:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:43:31.182111  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:43:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:44:01.182176  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:44:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: 859926212a3c4d0f8f347368c4755d7b
+[D]  Sentry Error Event: 8ba8f6d67a494d5bbaa9649c7c34997b
+[D]  2025-07-07T13:44:31.181476  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:44:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:45:01.180296  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:45:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: bc53e69835ac405289914df033c6efe8
+[D]  Sentry Error Event: 7576401f93404050a4b7d44223e21f3f
+[D]  2025-07-07T13:45:31.182124  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:45:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 745ba543ec814beaae8d7c0fed07213e
+[D]  Sentry Error Event: b2aac69a4e0941ab8063187db8ef120b
+[D]  2025-07-07T13:46:01.179645  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:46:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:46:32.369810  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:46:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 79a3bedc16cf455eb079d7d3028f2e65
+[D]  Sentry Error Event: c973f2565aad4ac18c4ed374757e02e9
+[D]  Sentry Error Event: dda1821e0ea84d6290561d60f05c8316
+[D]  Sentry Error Event: c1a9d86416594a2e9bf40a94666a0bbe
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:47:01.177873  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:47:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:47:31.177498  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:47:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:48:01.176800  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:48:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: 6e07f492d80545dba64039bfc3cf815a
+[D]  Sentry Error Event: 915daabd4e054ac19352676f759f6dc4
+[D]  2025-07-07T13:48:31.177428  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:48:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:49:01.182092  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:49:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:49:31.174553  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:49:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:50:01.173046  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:50:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:50:31.175600  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:50:31Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:51:01.175986  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:51:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:51:31.171896  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:51:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:52:01.181293  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:52:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: 8b89b222ff1b417eb3f63b24030aa23f
+[D]  Sentry Error Event: 599b19e349324f56b5fcf989c6ea493e
+[D]  2025-07-07T13:52:31.170486  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:52:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:53:01.172073  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:53:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:53:31.168968  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:53:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 461f66e2534b4bc789b1563ded462432
+[D]  Sentry Error Event: 86384ae89992427c980a4b8fd706fb47
+[D]  2025-07-07T13:54:01.170742  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:54:01Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T13:54:31.166227  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:54:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:55:01.167614  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:55:01Z","version":"1.0.0"}
+[D]  Sentry Error Event: a475b04643354641a2d38337405ad794
+[D]  Sentry Error Event: cd414938e6c7410e84f131b3b4bf3ce0
+[D]  2025-07-07T13:55:31.166507  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:55:31Z","version":"1.0.0"}
+[D]  Sentry Error Event: 4d61b93fed294cffb96e0f3aebccf728
+[D]  Sentry Error Event: 7f62c84cb47e49a0a9c091fc41ef2566
+[D]  2025-07-07T13:56:01.166710  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:56:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:56:31.164825  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:56:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:57:01.163658  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:57:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:57:31.162838  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:57:31Z","version":"1.0.0"}
+[D]  2025-07-07T13:58:01.162909  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:58:01Z","version":"1.0.0"}
+[D]  2025-07-07T13:58:02.108039  InternalSubscriptionsWebsocketManager: Connection closed
+[D]  2025-07-07T13:58:32.110104  InternalSubscriptionsWebsocketManager: Attempting to reconnect...
+[D]  2025-07-07T13:58:32.450747  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-07-07T13:58:32.450747  InternalSubscriptionsWebsocketManager: Connected successfully
+[D]  2025-07-07T13:59:02.503599  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:59:03Z","version":"1.0.0"}
+[D]  2025-07-07T13:59:32.508021  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T17:59:33Z","version":"1.0.0"}
+[D]  2025-07-07T13:59:55.937491  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T14:00:02.502601  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:00:03Z","version":"1.0.0"}
+[D]  Sentry Error Event: b77b73c55dac4713bdac82f2b7191fc2
+[D]  Sentry Error Event: 00d8fb0019ef457fab19d26b914a2078
+[D]  2025-07-07T14:00:32.505902  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:00:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:00:34.688230  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T14:01:02.502539  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:01:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:01:32.500975  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:01:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:01:54.145111  run periodicWorkflowRollupRegenerator
+[D]  2025-07-07T14:02:02.499875  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:02:03Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T14:02:32.499623  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:02:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:03:02.499924  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:03:03Z","version":"1.0.0"}
+[D]  Sentry Error Event: 4d2888cd367c4d49ba2fc78c4c3b5452
+[D]  Sentry Error Event: a9a952470b9f45aba495711f32042e78
+[D]  2025-07-07T14:03:32.497548  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:03:33Z","version":"1.0.0"}
+[D]  Sentry Error Event: 479eac9f1b754b86b8397455ee39ef0e
+[D]  Sentry Error Event: 6ab5acb600014715b4ade0e8c3ca7346
+[D]  2025-07-07T14:04:02.497556  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:04:03Z","version":"1.0.0"}
+[D]  Sentry Error Event: 7ba20f7d408240d0a46a7642395a7a62
+[D]  Sentry Error Event: 8c69c29064a14f33931e0117ad011468
+[D]  2025-07-07T14:04:32.497457  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:04:33Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T14:05:02.495764  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:05:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:05:32.495770  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:05:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:06:02.494322  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:06:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:06:32.493621  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:06:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:07:02.492850  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:07:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:07:32.495276  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:07:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:08:02.493031  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:08:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:08:10.633667  periodicWorkflowRollupRegenerator completed
+[D]  2025-07-07T14:08:32.491672  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:08:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:09:02.495372  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:09:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:09:32.602809  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:09:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:10:02.488848  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:10:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:10:32.489008  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:10:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:11:02.701565  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:11:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:11:32.488051  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:11:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:12:02.486534  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:12:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:12:32.485524  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:12:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:13:02.486281  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:13:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:13:32.484489  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:13:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:14:02.484931  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:14:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:14:32.483758  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:14:33Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T14:15:02.482863  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:15:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:15:32.481174  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:15:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:16:02.481432  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:16:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:16:32.481532  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:16:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:17:02.479701  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:17:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:17:32.486285  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:17:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:18:02.479157  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:18:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:18:32.477769  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:18:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:19:02.476592  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:19:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:19:32.476474  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:19:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:19:55.938007  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T14:20:02.476065  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:20:03Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T14:20:32.474906  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:20:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:21:02.475232  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:21:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:21:26.510588  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T14:21:32.473258  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:21:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:22:02.473374  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:22:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:22:32.477315  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:22:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:23:02.471011  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:23:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:23:32.470957  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:23:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:24:02.469277  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:24:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:24:32.467944  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:24:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:25:02.468691  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:25:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:25:32.468561  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:25:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:26:02.467012  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:26:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:26:32.466547  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:26:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:27:02.466531  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:27:03Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T14:27:26.443820  runMaintenance called
+[D]  2025-07-07T14:27:26.443820  runMaintenance completed
+[D]  2025-07-07T14:27:32.463913  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:27:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:28:02.467753  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:28:03Z","version":"1.0.0"}
+[D]  Sentry Error Event: f5fa6c1f905f43b49437d50b7a3d19e6
+[D]  Sentry Error Event: abfd9dcd9bc7408c8ec589145888a0b0
+[D]  2025-07-07T14:28:32.463861  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:28:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:29:02.462800  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:29:03Z","version":"1.0.0"}
+[D]  Sentry Error Event: ca4ad7a88e104ae8ae6dd638e77cc623
+[D]  Sentry Error Event: 4c13a4d2dcb24ee9857bfb7ca1ae2a83
+[D]  Sentry Error Event: bb68865242d94889a578184920f09994
+[D]  Sentry Error Event: af103965780e40028c52dc5c5b3a07ac
+[D]  2025-07-07T14:29:32.461543  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:29:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:30:02.461193  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:30:03Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T14:30:32.461176  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:30:33Z","version":"1.0.0"}
+[D]  Sentry Error Event: e69a45748afd4e1cb34d2fb29e669c3b
+[D]  Sentry Error Event: c28b0de322924370a05b04dfd7706e23
+[D]  2025-07-07T14:31:02.460387  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:31:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:31:32.459558  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:31:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:32:02.459581  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:32:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:32:32.458311  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:32:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:33:02.458384  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:33:03Z","version":"1.0.0"}
+[D]  Sentry Error Event: abd740bd3aa54db5a735e15404c1b8ff
+[D]  Sentry Error Event: be8b27a7892d4095b38083eff9e89645
+[D]  2025-07-07T14:33:32.455270  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:33:33Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T14:34:02.454846  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:34:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:34:32.455313  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:34:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:35:02.453459  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:35:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:35:32.453744  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:35:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:36:02.453087  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:36:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:36:32.451956  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:36:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:37:02.451216  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:37:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:37:32.452181  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:37:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:38:02.451748  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:38:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:38:32.450411  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:38:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:39:02.448972  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:39:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:39:32.449059  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:39:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:39:55.937776  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T14:40:02.447600  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:40:03Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T14:40:24.403745  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T14:40:32.446062  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:40:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:41:02.445623  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:41:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:41:32.445796  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:41:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:42:02.444584  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:42:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:42:32.442532  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:42:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:43:02.443305  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:43:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:43:32.444107  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:43:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:44:02.446610  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:44:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:44:32.440364  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:44:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:45:02.442074  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:45:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:45:32.439845  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:45:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:46:02.437941  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:46:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:46:32.438348  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:46:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:47:02.436026  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:47:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:47:32.436959  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:47:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:48:02.437297  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:48:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:48:32.435629  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:48:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:49:02.435483  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:49:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:49:32.434139  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:49:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:50:02.433601  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:50:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:50:32.432663  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:50:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:51:02.439497  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:51:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:51:32.430807  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:51:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:52:02.430410  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:52:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:52:32.430022  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:52:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:53:02.429641  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:53:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:53:32.430108  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:53:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:54:02.427520  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:54:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:54:32.427872  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:54:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:55:02.427107  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:55:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:55:32.425756  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:55:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:56:02.428570  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:56:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:56:32.426383  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:56:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:57:02.429065  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:57:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:57:32.422770  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:57:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:58:02.429612  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:58:03Z","version":"1.0.0"}
+[D]  2025-07-07T14:58:24.623998  run periodicUserFetch
+[D]  2025-07-07T14:58:25.257558  periodicUserFetch completed
+[D]  2025-07-07T14:58:32.423053  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:58:33Z","version":"1.0.0"}
+[D]  2025-07-07T14:58:33.366463  InternalSubscriptionsWebsocketManager: Connection closed
+[D]  2025-07-07T14:59:03.368018  InternalSubscriptionsWebsocketManager: Attempting to reconnect...
+[D]  2025-07-07T14:59:03.612077  InternalSubscriptionsWebsocketManager: Establishing WebSocket connection...
+[D]  2025-07-07T14:59:03.612077  InternalSubscriptionsWebsocketManager: Connected successfully
+[D]  2025-07-07T14:59:33.668322  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T18:59:34Z","version":"1.0.0"}
+[D]  2025-07-07T14:59:55.938160  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T14:59:56.781910  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T15:00:03.666533  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:00:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:00:33.665378  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:00:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:01:03.663819  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:01:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:01:33.664622  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:01:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:01:54.146281  run periodicWorkflowRollupRegenerator
+[D]  2025-07-07T15:02:03.663589  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:02:04Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T15:02:33.663212  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:02:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:03:03.661653  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:03:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:03:33.660585  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:03:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:04:03.661299  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:04:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:04:33.660945  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:04:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:05:03.661426  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:05:04Z","version":"1.0.0"}
+[38;5;12m[I][0m  AssetLoaderIsolate: Shutting down due to inactivity after 20 seconds.
+[D]  2025-07-07T15:05:33.659007  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:05:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:06:03.658516  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:06:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:06:33.658812  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:06:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:07:03.656643  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:07:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:07:16.515808  periodicWorkflowRollupRegenerator completed
+[D]  2025-07-07T15:07:33.657673  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:07:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:08:03.656993  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:08:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:08:33.656941  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:08:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:09:03.655532  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:09:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:09:33.654099  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:09:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:10:03.653240  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:10:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:10:33.657018  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:10:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:11:03.650435  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:11:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:11:33.651379  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:11:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:12:03.649664  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:12:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:12:33.649783  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:12:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:13:03.650590  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:13:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:13:33.647014  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:13:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:14:03.647839  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:14:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:14:33.646653  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:14:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:15:03.645841  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:15:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:15:33.647945  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:15:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:16:03.643984  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:16:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:16:33.644560  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:16:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:17:03.642676  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:17:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:17:33.643978  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:17:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:18:03.640935  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:18:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:18:33.640463  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:18:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:19:03.640302  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:19:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:19:33.638711  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:19:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:19:55.938569  run periodicWorkflowRollupGenerator
+[D]  2025-07-07T15:19:56.769580  periodicWorkflowRollupGenerator completed
+[D]  2025-07-07T15:20:03.639428  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:20:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:20:33.636964  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:20:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:21:03.636928  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:21:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:21:33.636548  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:21:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:22:03.634473  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:22:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:22:33.636793  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:22:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:23:03.634098  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:23:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:23:33.632911  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:23:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:24:03.631810  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:24:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:24:33.633270  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:24:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:25:03.632579  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:25:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:25:33.630820  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:25:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:26:03.631388  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:26:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:26:33.628638  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:26:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:27:03.628812  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:27:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:27:33.628461  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:27:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:28:03.628821  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:28:04Z","version":"1.0.0"}
+[D]  2025-07-07T15:28:33.626340  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:28:34Z","version":"1.0.0"}
+[D]  2025-07-07T15:29:03.626259  InternalSubscriptionsWebsocketManager: Received: {"event_type":"ping","timestamp":"2025-07-07T19:29:04Z","version":"1.0.0"}

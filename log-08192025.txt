@@ -1,0 +1,28 @@
+[D]  2025-08-19T06:56:31.577881  Starting OS_Server!
+[D]  2025-08-19T06:56:31.577881  Starting EnvConf
+[D]  2025-08-19T06:56:31.577881  Starting DeploymentInfo
+[D]  2025-08-19T06:56:31.581881  Number: 267
+[D]  2025-08-19T06:56:31.581881  Tag: 12.2.1
+[D]  2025-08-19T06:56:31.581881  Branch: 12.2.1
+[D]  2025-08-19T06:56:31.581881  SHA1: f1676119a37cc2cf3af498efbe5b4c00bbf97ff9
+[D]  2025-08-19T06:56:31.581881  WinDeployType: msix
+[D]  2025-08-19T06:56:31.581881  Channel : production
+[D]  2025-08-19T06:56:31.581881  Process ID: 39808
+[D]  2025-08-19T06:56:31.581881  Copying the vocab file to the data directory
+[D]  2025-08-19T06:56:31.581881  Successfully copied the vocab file
+[D]  2025-08-19T06:56:31.581881  Starting OS
+[D]  2025-08-19T06:56:31.640268  Starting OS
+[D]  2025-08-19T06:56:31.640268  Starting UI
+[D]  2025-08-19T06:56:31.640268  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-08192025.txt
+[D]  2025-08-19T06:56:31.648781  UI#builder, hasData: false, hasError: false
+[D]  2025-08-19T06:56:31.649782  stateStream#onListen
+[D]  2025-08-19T06:56:31.649782  OS#boot - Starting boot process
+[D]  2025-08-19T06:56:31.649782  OS#attach
+[D]  2025-08-19T06:56:31.649782  OS#boot - attach() completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Starting data singletons initialization
+[38;5;12m[I][0m  initializeDataSingletons - Logger initialization completed in 0ms
+[D]  2025-08-19T06:56:31.658870  User added tagify files now exist.
+[38;5;12m[I][0m  initializeDataSingletons - Couchbase initializeCouchbase completed in 61767ms
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  initializeDataSingletons - Platform detection completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Database initialization with embedding callbacks completed in 0ms

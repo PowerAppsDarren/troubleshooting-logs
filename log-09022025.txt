@@ -1,0 +1,90 @@
+[D]  2025-09-02T08:09:19.320503  Starting OS_Server!
+[D]  2025-09-02T08:09:19.320503  Starting EnvConf
+[D]  2025-09-02T08:09:19.320503  Starting DeploymentInfo
+[D]  2025-09-02T08:09:19.327501  Number: 267
+[D]  2025-09-02T08:09:19.327501  Tag: 12.2.1
+[D]  2025-09-02T08:09:19.327501  Branch: 12.2.1
+[D]  2025-09-02T08:09:19.327501  SHA1: f1676119a37cc2cf3af498efbe5b4c00bbf97ff9
+[D]  2025-09-02T08:09:19.327501  WinDeployType: msix
+[D]  2025-09-02T08:09:19.327501  Channel : production
+[D]  2025-09-02T08:09:19.327501  Process ID: 174240
+[D]  2025-09-02T08:09:19.327501  Copying the vocab file to the data directory
+[D]  2025-09-02T08:09:19.327501  Successfully copied the vocab file
+[D]  2025-09-02T08:09:19.327501  Starting OS
+[D]  2025-09-02T08:09:19.391814  Starting OS
+[D]  2025-09-02T08:09:19.392812  Starting UI
+[D]  2025-09-02T08:09:19.392812  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-09022025.txt
+[D]  2025-09-02T08:09:19.401814  UI#builder, hasData: false, hasError: false
+[D]  2025-09-02T08:09:19.402813  stateStream#onListen
+[D]  2025-09-02T08:09:19.402813  OS#boot - Starting boot process
+[D]  2025-09-02T08:09:19.402813  OS#attach
+[D]  2025-09-02T08:09:19.402813  OS#boot - attach() completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Starting data singletons initialization
+[38;5;12m[I][0m  initializeDataSingletons - Logger initialization completed in 0ms
+[D]  2025-09-02T08:09:19.404816  User added tagify files now exist.
+[38;5;12m[I][0m  initializeDataSingletons - Couchbase initializeCouchbase completed in 56557ms
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  initializeDataSingletons - Platform detection completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Database initialization with embedding callbacks completed in 0ms
+[D]  2025-09-02T08:10:16.100398  0:00:00.000860 GET     [200] /.well-known/version: port:39300
+[D]  2025-09-02T08:10:16.103401  0:00:00.000490 GET     [200] /.well-known/health: port:39300
+[D]  2025-09-02T08:10:17.347963  0:00:00.000449 GET     [200] /.well-known/health: port:39300
+[D]  2025-09-02T15:51:28.365483  Starting OS_Server!
+[D]  2025-09-02T15:51:28.365483  Starting EnvConf
+[D]  2025-09-02T15:51:28.365483  Starting DeploymentInfo
+[D]  2025-09-02T15:51:28.371482  Number: 267
+[D]  2025-09-02T15:51:28.371482  Tag: 12.2.1
+[D]  2025-09-02T15:51:28.371482  Branch: 12.2.1
+[D]  2025-09-02T15:51:28.371482  SHA1: f1676119a37cc2cf3af498efbe5b4c00bbf97ff9
+[D]  2025-09-02T15:51:28.371482  WinDeployType: msix
+[D]  2025-09-02T15:51:28.371482  Channel : production
+[D]  2025-09-02T15:51:28.371482  Process ID: 218748
+[D]  2025-09-02T15:51:28.371482  Copying the vocab file to the data directory
+[D]  2025-09-02T15:51:28.371482  Successfully copied the vocab file
+[D]  2025-09-02T15:51:28.371482  Starting OS
+[D]  2025-09-02T15:51:28.437517  Starting OS
+[D]  2025-09-02T15:51:28.437517  Starting UI
+[D]  2025-09-02T15:51:28.438518  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-09022025.txt
+[D]  2025-09-02T15:51:28.448522  UI#builder, hasData: false, hasError: false
+[D]  2025-09-02T15:51:28.448522  stateStream#onListen
+[D]  2025-09-02T15:51:28.448522  OS#boot - Starting boot process
+[D]  2025-09-02T15:51:28.448522  OS#attach
+[D]  2025-09-02T15:51:28.448522  OS#boot - attach() completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Starting data singletons initialization
+[38;5;12m[I][0m  initializeDataSingletons - Logger initialization completed in 0ms
+[D]  2025-09-02T15:51:28.453518  User added tagify files now exist.
+[38;5;12m[I][0m  initializeDataSingletons - Couchbase initializeCouchbase completed in 61005ms
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  initializeDataSingletons - Platform detection completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Database initialization with embedding callbacks completed in 0ms
+[D]  2025-09-02T15:56:13.644676  Starting OS_Server!
+[D]  2025-09-02T15:56:13.644676  Starting EnvConf
+[D]  2025-09-02T15:56:13.644676  Starting DeploymentInfo
+[D]  2025-09-02T15:56:13.644676  Number: 267
+[D]  2025-09-02T15:56:13.644676  Tag: 12.2.1
+[D]  2025-09-02T15:56:13.644676  Branch: 12.2.1
+[D]  2025-09-02T15:56:13.644676  SHA1: f1676119a37cc2cf3af498efbe5b4c00bbf97ff9
+[D]  2025-09-02T15:56:13.644676  WinDeployType: msix
+[D]  2025-09-02T15:56:13.644676  Channel : production
+[D]  2025-09-02T15:56:13.644676  Process ID: 216364
+[D]  2025-09-02T15:56:13.644676  Copying the vocab file to the data directory
+[D]  2025-09-02T15:56:13.644676  Successfully copied the vocab file
+[D]  2025-09-02T15:56:13.644676  Starting OS
+[D]  2025-09-02T15:56:13.646676  Starting OS
+[D]  2025-09-02T15:56:13.647676  Starting UI
+[D]  2025-09-02T15:56:13.647676  Logging to file: C:\Users\DarrenNeese\AppData\Local\Mesh Intelligent Technologies, Inc\Pieces OS\com.pieces.os\production\Support/logs/log-09022025.txt
+[D]  2025-09-02T15:56:13.648677  UI#builder, hasData: false, hasError: false
+[D]  2025-09-02T15:56:13.649676  stateStream#onListen
+[D]  2025-09-02T15:56:13.649676  OS#boot - Starting boot process
+[D]  2025-09-02T15:56:13.649676  OS#attach
+[D]  2025-09-02T15:56:13.649676  OS#boot - attach() completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Starting data singletons initialization
+[38;5;12m[I][0m  initializeDataSingletons - Logger initialization completed in 0ms
+[D]  2025-09-02T15:56:13.651676  User added tagify files now exist.
+[38;5;12m[I][0m  initializeDataSingletons - Couchbase initializeCouchbase completed in 7113ms
+[38;5;12m[I][0m  couchbase initialized, now the other collections.
+[38;5;12m[I][0m  initializeDataSingletons - Platform detection completed in 0ms
+[38;5;12m[I][0m  initializeDataSingletons - Database initialization with embedding callbacks completed in 0ms
+[D]  2025-09-02T15:56:23.738279  0:00:00.001599 GET     [200] /.well-known/version: port:39300
+[D]  2025-09-02T15:56:23.743280  0:00:00.000463 GET     [200] /.well-known/health: port:39300
+[D]  2025-09-02T15:56:24.760818  0:00:00.000999 GET     [200] /.well-known/health: port:39300
